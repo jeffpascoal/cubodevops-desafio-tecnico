@@ -1,0 +1,8 @@
+project_name      = "project-name"
+proxy_port        = 8080
+
+postgres_db       = "appdb"
+postgres_user     = "appuser"
+postgres_password = "changeme"
+
+cadvisor_port     = 8081

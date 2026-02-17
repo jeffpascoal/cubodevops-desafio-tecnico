@@ -62,10 +62,10 @@
     <h1>Desafio Técnico - DevOps</h1>
     <p>Aborda conceitos de Terraform, Docker e Redes.</p>
     <button onclick="fetchAPI()">Verificar Backend e Banco</button>
+
     <script>
       async function fetchAPI() {
-        const result = await fetch("/api", { mode: 'no-cors' })
-          .then(response => response.json())
+        const result = await fetch("/api").then(r => r.json());
 
         if (result?.database) {
           const h2 = document.createElement("h2");
