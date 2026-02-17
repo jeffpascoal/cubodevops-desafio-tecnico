@@ -124,7 +124,7 @@ resource "docker_container" "proxy" {
 
 resource "docker_container" "cadvisor" {
   name    = "${var.project_name}-cadvisor"
-  image   = "gcr.io/cadvisor/cadvisor:v0.49.1"
+  image   = "gcr.io/cadvisor/cadvisor:latest"
   restart = "always"
 
   ports {
