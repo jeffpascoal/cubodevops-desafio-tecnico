@@ -66,11 +66,11 @@ flowchart LR
   D[(PostgreSQL)]
   T[Terraform]
 
-  click N "proxy/nginx.conf" "Abrir nginx.conf"
-  click F "frontend/index.html" "Abrir index.html"
-  click B "backend/index.js" "Abrir index.js"
-  click D "sql/script.sql" "Abrir script.sql"
-  click T "infra/main.tf" "Abrir main.tf"
+  click N "https://github.com/jeffpascoal/cubodevops-desafio-tecnico/blob/v1.0.0/proxy/nginx.conf" "Abrir nginx.conf"
+  click F "https://github.com/jeffpascoal/cubodevops-desafio-tecnico/blob/v1.0.0/frontend/index.html" "Abrir index.html"
+  click B "https://github.com/jeffpascoal/cubodevops-desafio-tecnico/blob/v1.0.0/backend/index.js" "Abrir index.js"
+  click D "https://github.com/jeffpascoal/cubodevops-desafio-tecnico/blob/v1.0.0/sql/script.sql" "Abrir script.sql"
+  click T "https://github.com/jeffpascoal/cubodevops-desafio-tecnico/blob/v1.0.0/infra/main.tf" "Abrir main.tf"
 ```
 
 
