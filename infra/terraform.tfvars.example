@@ -1,4 +1,4 @@
-project_name      = "project-name"
+project_name      = "desafio-tecnico"
 proxy_port        = 8080
 
 postgres_db       = "appdb"
